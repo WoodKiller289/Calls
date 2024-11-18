@@ -3,12 +3,6 @@ from telebot import types
 import logging
 import sys
 
-# Константы
-TOKEN = '7969743484:AAFICUHs0UDQEYIRG6vryaysj_k0J4smzHE'
-WORKER_CHAT_ID = -1002490791470  # ID группы для работников
-ADMIN_CHAT_ID = 6262188354  # ID админа
-bot = telebot.TeleBot(TOKEN)
-
 # Глобальные переменные
 user_languages = {}
 order_data = {}
